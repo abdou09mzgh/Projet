@@ -41,24 +41,20 @@ window.onload = function () {
   const btn1 = document.querySelector('.Button1');
   const fin_btn1 = document.getElementById('réservation');
 
-
-    btn1.onclick = function () {
+  btn1.onclick = function () {
       fin_btn1.scrollIntoView({
         behavior: 'smooth'
       });
     };
   
+  const btn3 = document.querySelector('.Button3');
+  const fin_btn3 = document.getElementById('réservation');
 
-  const menuItem = document.querySelector('.Button3');
-  const targetSection = document.getElementById('réservation');
-
-  if (menuItem && targetSection) {
-    menuItem.onclick = function () {
-      targetSection.scrollIntoView({
+    btn3.onclick = function () {
+      fin_btn3.scrollIntoView({
         behavior: 'smooth'
       });
     };
-  }
 };
 
 
