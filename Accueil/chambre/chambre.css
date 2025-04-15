@@ -1,0 +1,116 @@
+#chambres{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 0px;
+    box-shadow: 0 0 0px #aaa;
+    display: block;
+}
+.chambre {
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px #aaa;
+    height: 430px;
+    width: 1230px;
+    margin-left: 2%;
+    border: 2px solid transparent;
+    transition: 0.2s ease;
+}
+.chambre:hover {
+    border-color: burlywood;
+}    
+.chambre img {
+        width: 700px;
+        height: 400px;
+        display: block;
+        transform: translate(500px, 10px);
+}
+
+.info {
+    position: absolute;
+    transform: translate(30Px, -20px); 
+    bottom: 0;
+    background: rgba(255,255,255,0);
+    padding: 20px;
+    width: 100%;
+}
+
+.info h2 {
+    margin: 0 0 10px;
+    color:black;
+}
+
+.info p {
+    margin: 0 0 10px;
+    /* font-weight: bold; */
+}  
+.info ul {
+    list-style: none; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.info ul li {
+    margin-bottom: 5px;
+}
+
+.Button3{
+    width: 130px;
+    padding: 10px 16px;
+    font-size: 16px;
+    position: 50%;
+    align-items: center;
+    transform: translate(300px, 0px);
+    background: burlywood;
+    border: none;
+    border-radius: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+.Button3:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.Button3:hover {
+    color: #fff;
+}
+.Button3:hover:after {
+    left: 0;
+    width: 100%;
+}
+.Button3:active {
+    top: 2px;
+}
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.controls button {
+    background: rgba(0,0,0,0);
+    color: black;
+    border: none;
+    font-size: 50px;
+    transform:translate(0px, 50px);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+

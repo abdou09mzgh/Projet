@@ -1,0 +1,228 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f4ef;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Pic1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.menu ul{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    padding: 40px;
+}
+#apropos{
+    width: 100vw;
+    height: 130vh;
+}
+#apropos h2{
+    font-size: 30px;
+    font-style: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 100%;
+}
+#apropos p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 50%;
+}
+.Pic4{
+    display: flex;
+    position: 50%;
+    align-items: center;
+    transform: translate(450px, -400px);
+}
+
+.Pic3{
+    display: flex;
+    position: 50%;
+    align-items: center;
+    transform: translate(900px, -300px);
+}
+
+.Button1{
+    padding: 10px 16px;
+    font-size: 16px;
+    position: 50%;
+    align-items: center;
+    transform: translate(230px, -562px);
+    background: burlywood;
+    border: none;
+    border-radius: 4px;
+    z-index: 1;
+    cursor: pointer;
+}
+.Button1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.Button1:hover {
+    color: #fff;
+}
+.Button1:hover:after {
+    left: 0;
+    width: 100%;
+}
+.Button1:active {
+    top: 2px;
+}
+.Button2{
+    cursor: pointer;
+    padding: 10px 16px;
+    font-size: 16px;
+    display: flex;
+    position: 50%;
+    align-items: center;
+    transform: translate(80px, -600px);
+    background: burlywood;
+    border: none;
+    border-radius: 4px;
+    z-index: 1;
+}
+.Button2:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+.Button2:hover {
+    color: #fff;
+}
+.Button2:hover:after {
+    left: 0;
+    width: 100%;
+}
+.Button2:active {
+    top: 2px;
+}
+/* #chambres{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(#eceffe,#ced6fb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} */
+#hotelM{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 50%;
+    transform: translate(4px, 0px);
+}
+#chambres h2{
+    font-size: 30px;
+    font-style: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 100%;
+    transform:translate(-7px, 0px); 
+} 
+
+#restaurant{
+    width: 100vw;
+    height: 100vh;
+}
+#services{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(63, 37, 1);
+}
+#services p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: white;
+    opacity: 100%;
+}
+#services h2{
+    font-size: 30px;
+    font-style: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 100%;
+}
+#réservation{
+    width: 100vw;
+    height: 80vh;
+}
+.footer{
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+}
+
+.footer p{
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.footer h2{
+    color: white;
+    display: flex;
+    margin-left: 2%;
+    transform: translate(0px, 30px) ;
+}
+
+ul.explorer{
+    color: white;
+    position: relative;
+    line-height: 1.5;
+    align-items: center;
+    transform: translate(550px, -70px);
+    list-style: none;
+}
+#explorer{
+    color:white;
+    position: relative;
+    align-items: center;
+    transform: translate(550px, -60px) ;
+}
+
+
+

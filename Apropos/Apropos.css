@@ -1,0 +1,151 @@
+.header{
+        width: 100vw;
+        height: 60vh;
+        background-image: url('Pic3.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
+ul.menu{
+    color: white;
+    padding:0%;
+    margin:none;
+    display: flex;
+    list-style: none;
+}
+
+ul.menu li {
+    padding: 40px;
+    margin:0%;
+    list-style: none;
+}
+
+.header p{
+    font-size: 50px;
+    display: flex;
+    margin-left: 4%;
+    color: white;
+}
+
+.content{
+    width: 100vw;
+    height: 150vh;
+}
+.content p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 50%;
+}
+
+.content h2{
+    font-size: 30px;
+    font-style: Arial, sans-serif;
+    display: flex;
+    margin-left: 2%;
+    color: black;
+    opacity: 100%;
+}
+    
+.Description{
+    font-size: 4px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    opacity: 50%;
+}
+
+.Pic1{
+    display: flex;
+    position: 50%;
+    align-items: center;
+    transform: translate(660px, -415px);
+}
+
+.Pic2{
+    display: flex;
+    position: 50%;
+    align-items: center;
+    transform: translate(870px, -1050px);
+}
+
+.footer{
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+}
+
+.footer p{
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.footer h2{
+    color: white;
+    display: flex;
+    margin-left: 2%;
+    transform: translate(0px, 30px) ;
+}
+
+ul.explorer{
+    color: white;
+    position: relative;
+    line-height: 1.5;
+    align-items: center;
+    transform: translate(550px, -70px);
+    list-style: none;
+}
+#explorer{
+    color:white;
+    position: relative;
+    align-items: center;
+    transform: translate(550px, -60px) ;
+}
+button{
+    width: 130px;
+    padding: 10px 16px;
+    font-size: 16px;
+    position: 50%;
+    align-items: center;
+    transform: translate(1050px, -900px);
+    background: burlywood;
+    border: none;
+    border-radius: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+button:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+}
+button:hover {
+    color: #fff;
+}
+button:hover:after {
+    left: 0;
+    width: 100%;
+}
+button:active {
+    top: 2px;
+}
+
+
+

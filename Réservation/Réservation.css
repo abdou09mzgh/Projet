@@ -1,0 +1,66 @@
+.header{
+    width: 100vw;
+    height: 60vh;
+    background-image: url('Pic3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+ul.menu{
+color: white;
+padding:0%;
+margin:none;
+display: flex;
+list-style: none;
+}
+
+ul.menu li {
+padding: 40px;
+margin:0%;
+list-style: none;
+}
+
+.header p{
+font-size: 50px;
+display: flex;
+margin-left: 4%;
+color: white;
+}
+
+.footer{
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+}
+
+.footer p{
+    font-size: 20px;
+    margin-left: 2%;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.footer h2{
+    color: white;
+    display: flex;
+    margin-left: 2%;
+    transform: translate(0px, 30px) ;
+}
+
+ul.explorer{
+    color: white;
+    position: relative;
+    line-height: 1.5;
+    align-items: center;
+    transform: translate(550px, -70px);
+    list-style: none;
+}
+#explorer{
+    color:white;
+    position: relative;
+    align-items: center;
+    transform: translate(550px, -60px) ;
+}
+
