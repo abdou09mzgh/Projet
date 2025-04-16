@@ -46,6 +46,12 @@ window.onload = function () {
         behavior: 'smooth'
       });
     };
+
+    const btn2 = document.querySelector('.Button2');
+
+    btn2.onclick = function () {
+      window.location.href = '../Apropos/Apropos.html';
+    };
   
   const btn3 = document.querySelector('.Button3');
   const fin_btn3 = document.getElementById('réservation');
